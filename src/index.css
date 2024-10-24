@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+    /* "Wix Madefor Display", sans-serif: Use a value from 400 to 800 */
+    font-family: "Wix Madefor Display", sans-serif;
+    /* "Roboto": Use a value from 100 300 400 500 700 900 */
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    src: url();
+}
+
+:root {
+    --black: black;
+    --theme_skin: #CDC6C0;
+    --theme_font: #504034;
+    --font_green_dark: #72726c;
+    --theme_btn_brown: #BC8E74;
+    --theme_btn_green: #91957E;
+    --filter_box: #E9E6E5;
+    --medi-brown: #8C6239;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.custom404 {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom404 p {
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.custom404 a {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin: 10px 0;
+    background-color: #BC8E74;
+    padding: 5px 20px;
+    border: 1px solid #BC8E74;
+    text-transform: none;
+    transition: 0.3s ease;
+}
+
+.custom404 a:hover {
+    color: var(--medi-brown);
+    background-color: transparent;
+}
+
+body {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+li {
+    list-style: none;
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

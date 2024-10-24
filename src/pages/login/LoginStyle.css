@@ -1,0 +1,130 @@
+:root {
+    --black: black;
+    --theme_skin: #CDC6C0;
+    --theme_font: #504034;
+    --font_green_dark: #72726c;
+    --theme_btn_brown: #BC8E74;
+    --theme_btn_green: #91957E;
+}
+
+.login__background {
+    background-color: var(--theme_skin);
+}
+
+.login__section {
+    background-color: white;
+}
+
+
+/* heading  */
+
+.login__heading {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.login__heading p {
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+/* form  */
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: auto;
+}
+
+.login__form p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.login__form input {
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    border: 1.5px solid black;
+    padding: 0 5px;
+    width: 300px;
+    height: 30px;
+}
+
+.login__form .email__input {
+    margin-bottom: 18px;
+}
+
+.passwordForgot__btn {
+    color: black;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding: 5px 0;
+    display: inline-block;
+}
+
+.passwordForgot__btn:hover {
+    color: var(--theme_btn_brown);
+}
+
+.submit__btn {
+    padding: 5px 20px;
+    font-weight: 100;
+    color: white;
+    font-size: 18px;
+    background-color: var(--theme_btn_brown);
+    margin: 20px auto 0 auto;
+    font-weight: 300;
+}
+
+.submit__btn:hover {
+    background-color: transparent;
+    color: var(--theme_font);
+    border-color: var(--theme_font);
+}
+
+.createAccount__btn {
+    color: var(--theme_font);
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin: 10px auto;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.createAccount__btn:hover {
+    color: var(--theme_btn_brown);
+}
+
+
+/* get help btn  */
+
+.get__help {
+    padding: 70px 50px 30px 0;
+    display: flex;
+    justify-content: end;
+}
+
+.get__help__btn {
+    width: max-content;
+    border: 1.2px solid var(--theme_font);
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.get__help__btn:hover {
+    background-color: var(--theme_btn_brown);
+    color: white;
+    border-color: var(--theme_btn_brown);
+}

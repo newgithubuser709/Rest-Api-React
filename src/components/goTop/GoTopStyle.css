@@ -1,0 +1,42 @@
+:root {
+    --black: black;
+    --theme_skin: #CDC6C0;
+    --theme_font: #504034;
+    --font_green_dark: #72726c;
+    --theme_btn_brown: #BC8E74;
+    --theme_btn_green: #91957E;
+    --filter_box: #E9E6E5;
+    --medi-brown: #8C6239;
+}
+
+.goTop__container {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s ease, transform 0.6s ease, visibility 0.6s ease, background-color 0.4s ease;
+    transform: translateY(-20px);
+    cursor: pointer;
+    background-color: var(--theme_btn_green);
+    width: max-content;
+    height: max-content;
+    padding: 7px;
+}
+
+.goTop__container__Script {
+    opacity: 100;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.goTop__container .bi {
+    font-size: 21px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.goTop__container:hover {
+    background-color: var(--theme_skin);
+}

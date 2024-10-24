@@ -1,0 +1,161 @@
+:root {
+    --black: black;
+    --theme_skin: #CDC6C0;
+    --theme_font: #504034;
+    --font_green_dark: #72726c;
+    --theme_btn_brown: #BC8E74;
+    --theme_btn_green: #91957E;
+    --filter_box: #E9E6E5;
+    --medi-brown: #8C6239;
+}
+
+.CartSection__heading {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--theme_font);
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+
+.CartSection__heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--theme_font);
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.Cart_CheckOut {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+}
+
+.Cart_CheckOut p {
+    width: max-content;
+    color: var(--theme_font);
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid var(--theme_font);
+    padding: 2px 15px;
+    cursor: pointer;
+}
+
+.Cart_CheckOut p span {
+    transition: 0.3s ease;
+    display: inline-block;
+}
+
+.Cart_CheckOut p:hover span {
+    transform: translateX(7px);
+}
+
+
+/* grid  */
+
+.CartProducts__grid {
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.CartProduct__box {
+    width: calc(100% / 3);
+    display: flex;
+}
+
+.product__img {
+    width: 50%;
+    height: max-content;
+}
+
+.product__img img {
+    width: 100%;
+    display: block;
+}
+
+.product__detail {
+    padding: 0 10px;
+    width: 50%;
+}
+
+.product__name__deleteBtn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productName {
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    text-transform: capitalize;
+    width: max-content;
+}
+
+.productDelete {
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.productDelete:hover {
+    color: rgb(80, 80, 80);
+}
+
+.product__price__quantityBtn {
+    width: max-content;
+}
+
+.productPrice {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--theme_font);
+    padding-top: 30px;
+}
+
+.productQuantityBtn {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.productQuantityBtn button {
+    width: max-content;
+    height: max-content;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.productQuantityBtn button:hover {
+    color: rgb(80, 80, 80);
+}
+
+.productQuantityBtn p {
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    user-select: none;
+}
+
+
+/* emty cart text */
+
+.cartEmtyText {
+    /* background-color: gainsboro; */
+    background-color: var(--filter_box);
+    width: 100%;
+    height: 50vh;
+}
+
+.cartEmtyText p {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--theme_font);
+    padding: 15px;
+}

@@ -1,0 +1,146 @@
+@media screen and (max-width:991px) {
+
+    /* Hero section  */
+    .hero__text__content {
+        padding: 100px 0 70px 15px;
+    }
+
+    .hero__text__content h1 {
+        font-size: 48px;
+    }
+
+    .hero__text__content p {
+        font-size: 30px;
+    }
+
+    .hero__shop_btn {
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+
+    /* img  */
+    .hero__img {
+        width: 350px;
+    }
+
+    /* fashion grid  */
+    .fashion__grid {
+        gap: 10px;
+    }
+
+    .fashion__box p {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:868px) {}
+
+@media screen and (max-width:768px) {
+
+    /* Hero section  */
+    .hero__text__content {
+        padding: 70px 0 70px 15px;
+    }
+
+    .hero__text__content h1 {
+        font-size: 39px;
+    }
+
+    .hero__text__content p {
+        font-size: 25px;
+    }
+
+    /* img  */
+    .hero__img {
+        width: 300px;
+    }
+
+    /* trending styles  */
+    .trendingStyles__bg {
+        background-position: right;
+    }
+
+    .trendingStyles__content {
+        margin: 0 0;
+    }
+
+    .trendingStyles__content h2 {
+        font-size: 32px;
+    }
+
+    .trendingStyles__content p {
+        font-size: 19px;
+    }
+
+    /* fashion grid  */
+    .fashion__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:668px) {
+    .Hero__content {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__text__content {
+        padding: 100px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__text__content h1 {
+        font-size: 42px;
+    }
+
+    .hero__text__content p {
+        font-size: 30px;
+    }
+
+    /* img  */
+    .hero__img {
+        display: none;
+    }
+
+    /* fashion grid  */
+    .fashion__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:512px) {
+
+    /* trending styles section  */
+    .trendingStyles__content {
+        margin: auto;
+        padding: 160px 0;
+        width: max-content;
+        text-align: center;
+    }
+
+    .trendingStyles__content h2 {
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+
+    .trendingStyles__content p {
+        font-size: 20px;
+    }
+
+    .trendingStyles__shop_btn {
+        background-color: var(--theme_btn_green);
+        border-color: var(--theme_btn_green);
+        color: white;
+        margin: 100px 0 0 9px;
+    }
+
+    .trendingStyles__shop_btn {
+        margin: 40px auto;
+    }
+}
+
+@media screen and (max-width:480px) {}
+
+@media screen and (max-width:380px) {}

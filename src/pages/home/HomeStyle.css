@@ -1,0 +1,164 @@
+:root {
+    --black: black;
+    --theme_skin: #CDC6C0;
+    --theme_font: #504034;
+    --font_green_dark: #72726c;
+    --theme_btn_brown: #BC8E74;
+    --theme_btn_green: #91957E;
+}
+
+.Hero_wrap {
+    background-color: var(--theme_skin);
+}
+
+.Hero__container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.Hero__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.hero__text__content {
+    padding: 100px 0 70px 40px;
+}
+
+.hero__text__content h1 {
+    font-size: 61px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    text-transform: none;
+    color: var(--theme_font);
+    font-family: "Wix Madefor Display", sans-serif;
+}
+
+.hero__text__content p {
+    font-size: 40px;
+    font-weight: 300;
+    color: black;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    text-transform: none;
+}
+
+.hero__shop_btn {
+    background-color: var(--theme_btn_brown);
+    color: white;
+}
+
+.hero__shop_btn:hover {
+    background: transparent;
+    color: var(--theme_font);
+    border-color: var(--theme_font);
+}
+
+.hero__img {
+    width: 450px;
+}
+
+.hero__img img {
+    width: 100%;
+    display: block;
+}
+
+
+/* trending styles section  */
+
+.trendingStyles__bg {
+    background-image: url(/trendingStyles_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.trendingStyles__content {
+    margin: auto;
+    padding: 160px 40px 140px 0;
+    width: max-content;
+}
+
+.trendingStyles__content h2 {
+    font-size: 51px;
+    font-weight: 400;
+    color: var(--font_green_dark);
+}
+
+.trendingStyles__content p {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--font_green_dark);
+    padding-left: 9px;
+}
+
+.trendingStyles__shop_btn {
+    background-color: var(--theme_btn_green);
+    border-color: var(--theme_btn_green);
+    color: white;
+    margin: 100px 0 0 9px;
+}
+
+.trendingStyles__shop_btn:hover {
+    background: transparent;
+    color: var(--theme_btn_green);
+    border-color: var(--theme_btn_green);
+}
+
+
+/* fashion grid  */
+
+.fashion__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.fashion__box {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 10px;
+}
+
+.fashion__box p {
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.fashion__box .fashion__box__shop_btn {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 6px 21px;
+    width: max-content;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    border: 1px solid white;
+    transition: 0.3s ease;
+}
+
+.fashion__box__shop_btn:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.women__fashion {
+    background-image: url(/women_fashion.png);
+}
+
+.men__fashion {
+    background-image: url(/mens_fashion.png);
+}
+
+.kids__fashion {
+    background-image: url(/kids_fashion.png);
+}

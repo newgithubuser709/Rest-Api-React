@@ -1,0 +1,36 @@
+:root {
+    --black: black;
+    --theme_skin: #CDC6C0;
+    --theme_font: #504034;
+    --font_green_dark: #72726c;
+    --theme_btn_brown: #BC8E74;
+    --theme_btn_green: #91957E;
+}
+
+.About__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.About__img {
+    max-width: 400px;
+}
+
+.About__img img {
+    width: 100%;
+    display: block;
+}
+
+.About__text {
+    max-width: 700px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.About__text p {
+    font-size: 20px;
+    color: var(--theme_font);
+    font-weight: 300;
+}

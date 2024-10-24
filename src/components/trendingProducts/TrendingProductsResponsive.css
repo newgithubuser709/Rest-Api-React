@@ -1,0 +1,87 @@
+@media screen and (max-width:991px) {
+
+    /* trending noe products  */
+    .trending_now__products {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 70px;
+        column-gap: 40px;
+    }
+}
+
+@media screen and (max-width:868px) {}
+
+@media screen and (max-width:768px) {
+
+    /* trending noe products  */
+    .trending_now__products {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 40px;
+        column-gap: 20px;
+    }
+
+    .textContent__productName {
+        font-size: 18px;
+    }
+
+    .textContent____rating {
+        width: 80px;
+    }
+
+    .trendingNow_product__price {
+        font-size: 17px;
+    }
+
+    .showMore__products__btn {
+        padding: 6px 18px !important;
+    }
+}
+
+@media screen and (max-width:668px) {
+
+    /* heading  */
+    .trending__now__heading {
+        font-size: 28px;
+    }
+
+    /* filters  */
+    .trending__now__filters ul li {
+        margin: 0 15px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    /* products  */
+    .trending_now__products {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        column-gap: 15px;
+    }
+}
+
+@media screen and (max-width:512px) {
+    .trending__now__heading {
+        font-size: 24px;
+    }
+
+    /* filters  */
+    .trending__now__filters ul li {
+        font-size: 16px;
+    }
+
+    /* products  */
+    .trending_now__products {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 25px;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    /* filters  */
+    .trending__now__filters ul li {
+        font-size: 15px;
+        margin: 0 12px;
+    }
+}
+
+@media screen and (max-width:380px) {}

@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --black: black;
+    --theme_skin: #CDC6C0;
+    --theme_font: #504034;
+    --font_green_dark: #72726c;
+    --theme_btn_brown: #BC8E74;
+    --theme_btn_green: #91957E;
+    --filter_box: #E9E6E5;
+    --medi-brown: #8C6239;
+}
+
+@font-face {
+    /* "Wix Madefor Display", sans-serif: Use a value from 400 to 800 */
+    font-family: "Wix Madefor Display", sans-serif;
+    /* "Roboto": Use a value from 100 300 400 500 700 900 */
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    src: url();
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+body {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+li {
+    list-style: none;
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.theme_btn {
+    width: max-content;
+    text-transform: uppercase;
+    padding: 12px 32px;
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 25px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    border: 2px solid transparent;
+}
+
+@media screen and (max-width:991px) {}
+
+@media screen and (max-width:868px) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:668px) {}
+
+@media screen and (max-width:512px) {}
+
+@media screen and (max-width:480px) {}
+
+@media screen and (max-width:380px) {}

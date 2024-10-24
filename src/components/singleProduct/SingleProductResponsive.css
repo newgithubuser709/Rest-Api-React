@@ -1,0 +1,31 @@
+@media screen and (max-width:991px) {}
+
+@media screen and (max-width:868px) {
+    .singleProduct__box__img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:668px) {
+    .singleProduct__box {
+        grid-template-columns: 1fr;
+    }
+
+    .singleProduct__box__img {
+        width: 100%;
+    }
+
+    /* content */
+    .singleProduct__box__content {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width:512px) {}
+
+@media screen and (max-width:480px) {}
+
+@media screen and (max-width:380px) {}
